@@ -1,1 +1,1 @@
-room_goto(room1dungeon)
+room_goto(thehouse)
