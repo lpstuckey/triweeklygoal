@@ -1,4 +1,4 @@
-global.room = thehouse;
+global.room = Theoutside1;
 
 if (global.enterLeft)
 {

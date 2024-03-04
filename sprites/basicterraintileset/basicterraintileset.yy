@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite20",
-  "bbox_bottom": 415,
+  "name": "basicterraintileset",
+  "bbox_bottom": 511,
   "bbox_left": 0,
-  "bbox_right": 287,
+  "bbox_right": 191,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7361338e-6997-49bc-93e3-d95c05583304",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0f0910a-bacb-45f1-8ec7-052c355e9186",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 416,
+  "height": 704,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"89269e02-a1a9-4268-b2c3-31028f3c0d8a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8081fc34-6d5e-4d7e-a1ca-7df28565ccce","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite20",
+    "name": "basicterraintileset",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7361338e-6997-49bc-93e3-d95c05583304","path":"sprites/Sprite20/Sprite20.yy",},},},"Disabled":false,"id":"1446b4ce-5f99-48ff-848d-b55c83d42347","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c0f0910a-bacb-45f1-8ec7-052c355e9186","path":"sprites/basicterraintileset/basicterraintileset.yy",},},},"Disabled":false,"id":"940ad5db-505f-4462-87eb-4a956a86e611","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 288,
+  "width": 192,
 }
