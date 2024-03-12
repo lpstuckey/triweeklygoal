@@ -9,9 +9,9 @@ if(!global.isTransitioning)
 	{
 		room_goto(room2dungeon)
 	}
-	if (room = room4dungeon)
+	if (room = Theoutside2)
 	{
-		room_goto(room5dungeon)
+		room_goto(Theoutside1)
 	}
 }
 

@@ -17,3 +17,8 @@ draw_text(39,130, string(oPlayer.attacklength))
 draw_text(39,150, string(oPlayer.attackcooldown))
 
 
+
+
+
+
+
