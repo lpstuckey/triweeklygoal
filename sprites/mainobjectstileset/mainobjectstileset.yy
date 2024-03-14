@@ -4,7 +4,7 @@
   "name": "mainobjectstileset",
   "bbox_bottom": 511,
   "bbox_left": 0,
-  "bbox_right": 364,
+  "bbox_right": 367,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

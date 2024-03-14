@@ -13,6 +13,10 @@ if(!global.isTransitioning)
 	{
 		room_goto(Theoutside1)
 	}
+	if (room = room4dungeon)
+	{
+		room_goto(room5dungeon)
+	}
 }
 
 
