@@ -30,6 +30,10 @@ if(!global.isTransitioning)
 	{
 		room_goto(Theoutside2)
 	}
+	if (room = mountains)
+	{
+		room_goto(room7dungeon)
+	}
 }
 
 
