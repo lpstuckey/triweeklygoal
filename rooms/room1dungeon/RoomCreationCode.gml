@@ -26,3 +26,4 @@ else
 	oPlayer.x = 734;
 	oPlayer.y = 385;
 }
+audio_play_sound(dungeonambience, 5, true)

@@ -1,4 +1,4 @@
-global.room = Theoutside1;
+global.room = mountains1;
 
 if (global.enterLeft)
 {
@@ -23,6 +23,7 @@ else if (global.enterUp)
 
 else 
 {
-	oPlayer.x = 802;
-	oPlayer.y = 93;
+	oPlayer.x = 734;
+	oPlayer.y = 385;
 }
+audio_pause_all()

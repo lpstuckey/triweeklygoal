@@ -11,12 +11,10 @@ seenPlayer = false;
 firehp = 10
 fireinvincibility = false
 fireinvtimer = 3
+
 killfire = false
 global.killminiboss = false
-if (global.killminiboss = true)
-{
-	instance_destroy(self)
-}
+
 
 
 

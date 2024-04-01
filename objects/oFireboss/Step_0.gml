@@ -74,11 +74,8 @@ if (fireinvincibility = true)
 		
 	}
 }
-if (killfire)
-{
-	global.killminiboss = true
-}
-if (global.killminiboss)
+if killfire = true
 {
 	instance_destroy(self)
 }
+
