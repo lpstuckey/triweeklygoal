@@ -19,3 +19,16 @@ if (global.hp > 100)
 	global.hp = 100;
 }
 
+if (room = room1dungeon)
+{
+	tutorialdialogue = true
+}
+else if (room = room2dungeon or Theoutside2)
+{
+	tutorialdialogue = false
+}
+if global.killminiboss = true
+{
+	global.dontrespawnfireminiboss = true	
+}
+

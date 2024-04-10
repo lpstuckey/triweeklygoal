@@ -21,6 +21,10 @@ if(!global.isTransitioning)
 	{
 		room_goto(mountains)
 	}
+	if (room = mountainswindyoverpass)
+	{
+		room_goto(mountains2)
+	}
 }
 
 

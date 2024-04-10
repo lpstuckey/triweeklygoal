@@ -26,4 +26,4 @@ else
 	oPlayer.x = 734;
 	oPlayer.y = 385;
 }
-audio_pause_all()
+

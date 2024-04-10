@@ -26,3 +26,6 @@ else
 	oPlayer.x = 734;
 	oPlayer.y = 385;
 }
+audio_pause_all()
+audio_play_sound(mountainwind2, 5, true)
+audio_play_sound(mountainwind3, 5, true)

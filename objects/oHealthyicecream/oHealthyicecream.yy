@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sHealthyicecream",
-    "path": "sprites/sHealthyicecream/sHealthyicecream.yy",
+    "name": "shealthjuice",
+    "path": "sprites/shealthjuice/shealthjuice.yy",
   },
   "spriteMaskId": null,
   "visible": true,

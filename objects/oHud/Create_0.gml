@@ -16,3 +16,7 @@ global.enterRight = false;
 global.enterLeft = false;
 global.enterDown = false;
 global.enterUp = false;
+
+tutorialdialogue = false
+global.dontrespawnfireminiboss = false
+global.killminiboss = false

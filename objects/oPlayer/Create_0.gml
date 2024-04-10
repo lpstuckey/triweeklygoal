@@ -17,3 +17,5 @@ attackready = true;
 attackarmed = false
 attacklength = 1;
 falling = false
+waterfallhappening = false
+waterfallhappened = false

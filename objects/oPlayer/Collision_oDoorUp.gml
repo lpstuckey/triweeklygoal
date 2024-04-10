@@ -33,6 +33,10 @@ if(!global.isTransitioning)
 	{
 		room_goto(mountains)
 	}
+	if (room = mountains1)
+	{
+		room_goto(mountains2)
+	}
 }
 
 

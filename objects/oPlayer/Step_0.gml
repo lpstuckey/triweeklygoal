@@ -122,3 +122,7 @@ if attack = true
 {
 	audio_play_sound(sound_attack, 1, false)
 }
+if waterfallhappened = true
+{
+	waterfallhappening = false
+}

@@ -14,6 +14,9 @@ else if (global.enterDown)
 {
 	oPlayer.x = oDoorUp.x;
 	oPlayer.y = (oDoorUp.y + (oPlayer.sprite_height));
+	audio_play_sound(dungeonambience, 5, true)
+	audio_stop_sound(mountainwind2)
+	audio_stop_sound(mountainwind3)
 }
 else if (global.enterUp)
 {

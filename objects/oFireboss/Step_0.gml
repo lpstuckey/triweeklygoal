@@ -11,25 +11,9 @@ yVector = yDirection * ySpeed;
 if ((abs(oPlayer.x - x) < 1000) and (abs(oPlayer.y - y) < 1000))
 {
 	
-	if (place_meeting(x + xVector, y, oCollision))
-	{
-		while(!place_meeting(x + xVector, y, oCollision))
-		{
-			x = x + xDirection;
-		}
-		
-		xVector = 0;
-	}
+
 	x = x + xVector;
-	if (place_meeting(x, y + yVector, oCollision))
-	{
-		while(!place_meeting(x, y + yVector, oCollision))
-		{
-			y = y + yDirection;
-		}
-		
-		yVector = 0;
-	}
+
 	y = y + yVector;
 
 	//if (place_meeting(x + xVector, y, oWall))
@@ -78,4 +62,15 @@ if killfire = true
 {
 	instance_destroy(self)
 }
-
+if killfire = true 
+{
+	global.killminiboss = true
+}
+if global.dontrespawnfireminiboss = true
+{
+	instance_destroy(self)
+}
+if firehp <= 3
+{
+instance_create_layer(x, y, "Instances", oFirepartical)
+}

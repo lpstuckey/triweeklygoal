@@ -34,6 +34,8 @@
     {"name":"inst_6307F20C","path":"rooms/mountains1/mountains1.yy",},
     {"name":"inst_54AFE1ED","path":"rooms/mountains1/mountains1.yy",},
     {"name":"inst_4478AB73","path":"rooms/mountains1/mountains1.yy",},
+    {"name":"inst_5309334E","path":"rooms/mountains1/mountains1.yy",},
+    {"name":"inst_252A82DB","path":"rooms/mountains1/mountains1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -66,6 +68,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6307F20C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"properties":[],"rotation":0.0,"scaleX":11.5,"scaleY":0.5,"x":1024.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54AFE1ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":608.0,"y":16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4478AB73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oDoorUp","path":"objects/oDoorUp/oDoorUp.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":640.0,"y":16.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5309334E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"waterfallsoundbox","path":"objects/waterfallsoundbox/waterfallsoundbox.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":8.0,"x":336.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_252A82DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"leftwaterfallsoundrange","path":"objects/leftwaterfallsoundrange/leftwaterfallsoundrange.yy",},"properties":[],"rotation":0.0,"scaleX":14.5,"scaleY":8.5,"x":880.0,"y":272.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Folder_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_6","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
