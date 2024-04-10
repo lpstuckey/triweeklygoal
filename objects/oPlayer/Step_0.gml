@@ -20,6 +20,14 @@ if (!falling)
 	{
 		yspd = 0;
 	}
+	if place_meeting(x + xspd, y, snowytree)
+	{
+		xspd = 0;
+	}
+	if place_meeting(x, y + yspd, snowytree)
+	{
+		yspd = 0;
+	}
 
 	x += xspd;
 	y += yspd;
