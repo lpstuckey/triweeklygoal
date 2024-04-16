@@ -13,6 +13,8 @@
     {"name":"inst_7A6767C6","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
     {"name":"inst_546F01DA","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
     {"name":"inst_726035FF","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
+    {"name":"inst_2DD2FB76","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
+    {"name":"inst_47468731","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -99,6 +101,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A6767C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"properties":[],"rotation":0.0,"scaleX":6.5,"scaleY":1.0,"x":1168.0,"y":335.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_546F01DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"properties":[],"rotation":0.0,"scaleX":14.5,"scaleY":1.0,"x":465.0,"y":274.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_726035FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"properties":[],"rotation":0.0,"scaleX":15.0,"scaleY":1.0,"x":480.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DD2FB76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"snowytree","path":"objects/snowytree/snowytree.yy",},"properties":[],"rotation":0.0,"scaleX":0.09,"scaleY":0.09,"x":320.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47468731","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"snowytree","path":"objects/snowytree/snowytree.yy",},"properties":[],"rotation":0.0,"scaleX":0.09,"scaleY":0.09,"x":288.0,"y":257.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -1434,-2147483648,1,224,-27,225,-57,-2147483648,2,0,246,-27,247,-57,-2147483648,4,220,221,266,267,-25,269,-57,225,4,242,243,288,289,-25,291,-59,247,1,310,-26,291,-59,269,1,270,-85,291,1,292,-85,291,1,292,-85,291,1,292,-85,291,1,292,-85,291,1,292,-84,291,2,-2147483648,292,-84,291,2,-2147483648,292,-26,-2147483648,-58,291,2,-2147483648,292,-26,-2147483648,-59,291,1,292,-26,-2147483648,
