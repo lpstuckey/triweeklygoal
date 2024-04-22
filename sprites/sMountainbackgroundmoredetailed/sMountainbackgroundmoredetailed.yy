@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sMountainbackgrounddetailed",
-  "bbox_bottom": 1329,
+  "name": "sMountainbackgroundmoredetailed",
+  "bbox_bottom": 3071,
   "bbox_left": 0,
-  "bbox_right": 2365,
+  "bbox_right": 5463,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1330,
+  "height": 3072,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5325ad94-a9b4-461e-aea9-2682b250c2cb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sMountainbackgrounddetailed",
+    "name": "sMountainbackgroundmoredetailed",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44c23c85-5715-4f07-934a-d116b86ae12b","path":"sprites/sMountainbackgrounddetailed/sMountainbackgrounddetailed.yy",},},},"Disabled":false,"id":"87b98271-a788-4be9-8f62-a0680590aa49","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44c23c85-5715-4f07-934a-d116b86ae12b","path":"sprites/sMountainbackgroundmoredetailed/sMountainbackgroundmoredetailed.yy",},},},"Disabled":false,"id":"8fe0a8f0-d36a-4393-bed7-785d2a723b81","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 2366,
+  "width": 5464,
 }
