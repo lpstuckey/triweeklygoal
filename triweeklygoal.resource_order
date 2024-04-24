@@ -76,6 +76,7 @@
     {"name":"mountains2tileset","order":51,"path":"sprites/mountains2tileset/mountains2tileset.yy",},
     {"name":"sound_invincibility","order":2,"path":"sounds/sound_invincibility/sound_invincibility.yy",},
     {"name":"Theoutside2","order":12,"path":"rooms/Theoutside2/Theoutside2.yy",},
+    {"name":"Sprite34","order":63,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"oDoor","order":16,"path":"objects/oDoor/oDoor.yy",},
     {"name":"TileSet5","order":4,"path":"tilesets/TileSet5/TileSet5.yy",},
     {"name":"TileSet6","order":5,"path":"tilesets/TileSet6/TileSet6.yy",},
