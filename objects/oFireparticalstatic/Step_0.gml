@@ -1,14 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-followtime -= 1/room_speed
-if followtime >=0
-{
-	xDirection = sign((oPlayer.x - x));
-	xVector = xDirection * xSpeed;
 
-	yDirection = sign((oPlayer.y - y));
-	yVector = yDirection * ySpeed;
-}
+
 
 
 if ((abs(oPlayer.x - x) < 1000) and (abs(oPlayer.y - y) < 1000))

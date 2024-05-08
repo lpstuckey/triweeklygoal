@@ -7,36 +7,38 @@ xVector = xDirection * xSpeed;
 yDirection = sign((oPlayer.y - y));
 yVector = yDirection * ySpeed;
 
-
-if ((abs(oPlayer.x - x) < 1000) and (abs(oPlayer.y - y) < 1000))
+if firebossmove = true
 {
+	if ((abs(oPlayer.x - x) < 1000) and (abs(oPlayer.y - y) < 1000))
+	{
 	
 
-	x = x + xVector;
+		x = x + xVector;
 
-	y = y + yVector;
+		y = y + yVector;
 
-	//if (place_meeting(x + xVector, y, oWall))
-	//{
-	//	while(!place_meeting(x + xVector, y, oWall))
-	//	{
-	//		x = x + xDirection;
-	//	}
+		//if (place_meeting(x + xVector, y, oWall))
+		//{
+		//	while(!place_meeting(x + xVector, y, oWall))
+		//	{
+		//		x = x + xDirection;
+		//	}
 		
-	//	xVector = 0;
-	//}
-	//x = x + xVector;
-	//if (place_meeting(x, y + yVector, oWall))
-	//{
-	//	while(!place_meeting(x, y + yVector, oWall))
-	//	{
-	//		y = y + yDirection;
-	//	}
+		//	xVector = 0;
+		//}
+		//x = x + xVector;
+		//if (place_meeting(x, y + yVector, oWall))
+		//{
+		//	while(!place_meeting(x, y + yVector, oWall))
+		//	{
+		//		y = y + yDirection;
+		//	}
 		
-	//	yVector = 0;
-	//}
-	//y = y + yVector;
+		//	yVector = 0;
+		//}
+		//y = y + yVector;
 
+	}
 }
 if fireinvincibility = true
 {
@@ -70,7 +72,57 @@ if global.dontrespawnfireminiboss = true
 {
 	instance_destroy(self)
 }
-if firehp <= 3
+if firehp <= 6 
 {
-instance_create_layer(x, y, "Instances", oFirepartical)
+	fireparttimer -= 1/room_speed
+	if (fireparttimer <= 0)
+	{
+		fireparttimer = 5
+		instance_create_layer(x, y, "Instances", oFirepartical)
+	}
+}
+
+if firehp <= 9 
+{
+	firelazertimer -= 1/room_speed
+	if (firelazertimer <= 0 )
+	{
+		spawnfirelazer = true
+		
+		if spawnfirelazer = true
+		{
+			firepartactive -= 1/room_speed
+			instance_create_layer(x, y, "Instances", oFireparticalstatic)
+			
+			if firepartactive <= 0
+			{
+				firelazertimer = 3
+				spawnfirelazer = false
+				firepartactive = 1
+				
+			}
+		}
+	}
+}
+if firehp <= 5 
+{
+	firelazertimer -= 1/room_speed
+	if (firelazertimer <= 0 )
+	{
+		spawnfirelazer = true
+		
+		if spawnfirelazer = true
+		{
+			firepartactive -= 1/room_speed
+			instance_create_layer(x, y, "Instances", oFireparticalslow)
+			
+			if firepartactive <= 0
+			{
+				firelazertimer = 3
+				spawnfirelazer = false
+				firepartactive = 1
+				
+			}
+		}
+	}
 }

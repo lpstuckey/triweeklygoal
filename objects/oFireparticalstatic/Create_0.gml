@@ -6,8 +6,11 @@ xVector = 0;
 yDirection = 0;
 ySpeed = 2;
 yVector = 0;
-followtime = 1
+xDirection = sign((oPlayer.x - x));
+xVector = xDirection * xSpeed;
 
+yDirection = sign((oPlayer.y - y));
+yVector = yDirection * ySpeed;
 
 
 

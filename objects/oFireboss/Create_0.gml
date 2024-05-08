@@ -14,7 +14,8 @@ fireinvtimer = 3
 
 killfire = false
 global.killminiboss = false
-
-
-
-
+fireparttimer = 3
+firebossmove = false
+firepartactive = 1
+spawnfirelazer = false
+firelazertimer = 3
