@@ -32,3 +32,11 @@ if global.killminiboss = true
 	global.dontrespawnfireminiboss = true	
 }
 
+if (room = room7dungeon)
+{
+	bossbar = true
+}
+else if (room = room5dungeo+n or mountains)
+{
+	bossbar = false
+}

@@ -8,7 +8,12 @@ function Firehurt()
 		oPlayer.attack = false;
 		oPlayer.attackcooldown -= 1/room_speed
 		oFire.firehp -= 1;
+		global.bossfirehp -= 1;
 		if (oFire.firehp <= 0)
+		{
+			Firedeath();
+		}
+		if (global.bossfirehp <= 0)
 		{
 			Firedeath();
 		}

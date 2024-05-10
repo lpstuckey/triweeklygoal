@@ -8,7 +8,7 @@ ySpeed = 1;
 yVector = 0;
 despawnTimer = 10;
 seenPlayer = false;
-firehp = 10
+global.bossfirehp = 10
 fireinvincibility = false
 fireinvtimer = 3
 
@@ -19,3 +19,4 @@ firebossmove = false
 firepartactive = 1
 spawnfirelazer = false
 firelazertimer = 3
+firewalltimer = 20

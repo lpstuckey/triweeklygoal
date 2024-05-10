@@ -20,3 +20,4 @@ global.enterUp = false;
 tutorialdialogue = false
 global.dontrespawnfireminiboss = false
 global.killminiboss = false
+bossbar = false

@@ -54,7 +54,7 @@ if (!falling)
 		}
 		if (invTimer = 1.9)
 		{
-			audio_play_sound(sound_invincibility, 1, false)
+			audio_play_sound(damage, 1, false)
 		}
 		if (invTimer <= 0)
 		{

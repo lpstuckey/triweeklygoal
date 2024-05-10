@@ -78,7 +78,7 @@ if firehp <= 6
 	if (fireparttimer <= 0)
 	{
 		fireparttimer = 5
-		instance_create_layer(x, y, "Instances", oFirepartical)
+		instance_create_layer(675, 388, "Instances", oFirepartical)
 	}
 }
 
@@ -92,7 +92,7 @@ if firehp <= 9
 		if spawnfirelazer = true
 		{
 			firepartactive -= 1/room_speed
-			instance_create_layer(x, y, "Instances", oFireparticalstatic)
+			instance_create_layer(675, 388, "Instances", oFireparticalstatic)
 			
 			if firepartactive <= 0
 			{
@@ -114,7 +114,7 @@ if firehp <= 5
 		if spawnfirelazer = true
 		{
 			firepartactive -= 1/room_speed
-			instance_create_layer(x, y, "Instances", oFireparticalslow)
+			instance_create_layer(675, 388, "Instances", oFireparticalslow)
 			
 			if firepartactive <= 0
 			{
@@ -124,5 +124,14 @@ if firehp <= 5
 				
 			}
 		}
+	}
+}
+if firehp <= 7
+{
+	firewalltimer -= 1/room_speed
+	if (firewalltimer <= 0)
+	{
+		firewalltimer = 20
+		instance_create_layer(675, 388, "Instances", oFirewall)
 	}
 }
