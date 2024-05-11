@@ -8,20 +8,38 @@ function Firehurt()
 		oPlayer.attack = false;
 		oPlayer.attackcooldown -= 1/room_speed
 		oFire.firehp -= 1;
-		global.bossfirehp -= 1;
+	
 		if (oFire.firehp <= 0)
 		{
-			Firedeath();
+			FireDeath();
 		}
-		if (global.bossfirehp <= 0)
-		{
-			Firedeath();
-		}
+		
+		
 		
 	}
 }
-
-function Firedeath()
+function firebosshurt()
+{
+	if(attack)
+	{
+		oFireboss.bossfireinvincibility = true
+		oPlayer.attack = false;
+		oPlayer.attackcooldown -= 1/room_speed
+		global.bossfirehp -= 1;
+		if (global.bossfirehp <= 0)
+		{
+			Firebossdeath();
+		}
+	}
+	
+	
+}
+function FireDeath()
 {
 	oFire.killfire = true;
+}
+function Firebossdeath()
+{
+
+	oFireboss.killfire = true;
 }

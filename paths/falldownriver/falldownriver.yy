@@ -1,14 +1,14 @@
 {
-  "resourceType": "GMPath",
-  "resourceVersion": "1.0",
-  "name": "falldownriver",
-  "closed": false,
-  "kind": 1,
-  "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+  "$GMPath":"",
+  "%Name":"falldownriver",
+  "closed":false,
+  "kind":1,
+  "name":"falldownriver",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
   },
-  "points": [
+  "points":[
     {"speed":100.0,"x":320.0,"y":224.0,},
     {"speed":100.0,"x":288.0,"y":384.0,},
     {"speed":100.0,"x":320.0,"y":448.0,},
@@ -25,5 +25,7 @@
     {"speed":100.0,"x":864.0,"y":704.0,},
     {"speed":100.0,"x":864.0,"y":768.0,},
   ],
-  "precision": 11,
+  "precision":11,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
 }

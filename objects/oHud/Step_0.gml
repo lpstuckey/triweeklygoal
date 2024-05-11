@@ -23,7 +23,7 @@ if (room = room1dungeon)
 {
 	tutorialdialogue = true
 }
-else if (room = room2dungeon or Theoutside2)
+else if (room = room2dungeon or room = Theoutside2)
 {
 	tutorialdialogue = false
 }
@@ -35,8 +35,10 @@ if global.killminiboss = true
 if (room = room7dungeon)
 {
 	bossbar = true
+
 }
-else if (room = room5dungeo+n or mountains)
+else if room = room5dungeon or room = mountains
 {
 	bossbar = false
+
 }

@@ -14,6 +14,7 @@ else if (global.enterDown)
 {
 	oPlayer.x = oDoorUp.x;
 	oPlayer.y = (oDoorUp.y + (oPlayer.sprite_height));
+	audio_stop_sound(firebossmusic)
 }
 else if (global.enterUp)
 {

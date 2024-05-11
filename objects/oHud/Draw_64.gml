@@ -11,6 +11,18 @@ draw_sprite_stretched(sFillhealthbar, image_index,39 ,100,
 min((global.hp/global.maxHP) * healthbarWidth, healthbarWidth),
 healthbarHeight);
 draw_sprite(sHealthbarbackground, 0, 39, 100)
+if (bossbar = true & global.dontrespawnfireminiboss = false)
+{
+draw_sprite_stretched(sFillbossbar, image_index,500 ,100,
+min((global.bossfirehp/global.maxbossHP) * bossbarwidth, bossbarwidth),
+bossbarheight);
+draw_sprite(sBossbarbackground, 0, 500, 100)
+}
+else if bossbar = false
+{
+	draw_flush()
+}
+
 
 
 draw_text(39,130, string(oPlayer.attacklength))

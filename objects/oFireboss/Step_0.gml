@@ -40,7 +40,7 @@ if firebossmove = true
 
 	}
 }
-if fireinvincibility = true
+if bossfireinvincibility = true
 {
 	sprite_index = sColdfire
 }
@@ -49,14 +49,14 @@ else
 	sprite_index = sFire
 }
 
-if (fireinvincibility = true)
+if (bossfireinvincibility = true)
 {
 	
-	fireinvtimer -= 1/room_speed
-	if (fireinvtimer <= 0)
+	bossfireinvtimer -= 1/room_speed
+	if (bossfireinvtimer <= 0)
 	{
-		fireinvincibility = false
-		fireinvtimer = 3;
+		bossfireinvincibility = false
+		bossfireinvtimer = 3;
 		
 	}
 }
@@ -70,9 +70,10 @@ if killfire = true
 }
 if global.dontrespawnfireminiboss = true
 {
+	audio_stop_sound(firebossmusic)
 	instance_destroy(self)
 }
-if firehp <= 6 
+if global.bossfirehp <= 6 
 {
 	fireparttimer -= 1/room_speed
 	if (fireparttimer <= 0)
@@ -82,7 +83,7 @@ if firehp <= 6
 	}
 }
 
-if firehp <= 9 
+if global.bossfirehp <= 9 
 {
 	firelazertimer -= 1/room_speed
 	if (firelazertimer <= 0 )
@@ -104,7 +105,7 @@ if firehp <= 9
 		}
 	}
 }
-if firehp <= 5 
+if global.bossfirehp <= 5 
 {
 	firelazertimer -= 1/room_speed
 	if (firelazertimer <= 0 )
@@ -126,7 +127,7 @@ if firehp <= 5
 		}
 	}
 }
-if firehp <= 7
+if global.bossfirehp <= 7
 {
 	firewalltimer -= 1/room_speed
 	if (firewalltimer <= 0)

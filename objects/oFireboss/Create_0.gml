@@ -9,8 +9,8 @@ yVector = 0;
 despawnTimer = 10;
 seenPlayer = false;
 global.bossfirehp = 10
-fireinvincibility = false
-fireinvtimer = 3
+bossfireinvincibility = false
+bossfireinvtimer = 3
 
 killfire = false
 global.killminiboss = false
