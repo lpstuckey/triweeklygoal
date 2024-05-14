@@ -37,7 +37,7 @@ if (room = room7dungeon)
 	bossbar = true
 
 }
-else if room = room5dungeon or room = mountains
+else //if room = room5dungeon or room = mountains
 {
 	bossbar = false
 

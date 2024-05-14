@@ -63,6 +63,29 @@ if (!falling)
 			flashAlpha = 0;
 		}
 	}
+	if (karma)
+	{
+		karmatimer -= 2/room_speed;
+		if (flashAlpha > 0)
+		{
+			flashAlpha -= 0.1;
+		
+		}
+		if (flashAlpha <=0)
+		{
+			flashAlpha = 1;
+		}
+		if (karmatimer <= 0)
+		{
+			audio_play_sound(damage, 1, false)
+		}
+		if (karmatimer <= 0)
+		{
+			karma = false
+			karmatimer = 1;
+			flashAlpha = 0;
+		}
+	}
 	if (!attackready)
 	{
 		attackcooldown -= 1/room_speed

@@ -26,3 +26,4 @@ else
 	oPlayer.x = 519;
 	oPlayer.y = 299;
 }
+audio_stop_all()

@@ -62,6 +62,7 @@ if (bossfireinvincibility = true)
 }
 if killfire = true
 {
+	oHud.bossbar = false;
 	instance_destroy(self)
 }
 if killfire = true 
@@ -71,6 +72,7 @@ if killfire = true
 if global.dontrespawnfireminiboss = true
 {
 	audio_stop_sound(firebossmusic)
+	oHud.bossbar = false;
 	instance_destroy(self)
 }
 if global.bossfirehp <= 6 

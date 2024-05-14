@@ -41,5 +41,6 @@ function FireDeath()
 function Firebossdeath()
 {
 
+	oHud.bossbar = false;
 	oFireboss.killfire = true;
 }

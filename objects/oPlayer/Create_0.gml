@@ -5,8 +5,8 @@ xspd = 0;
 yspd = 0;
 isInvincible = false;
 invTimer = 2;
-
-
+karma = false;
+karmatimer = 1;
 
 flashAlpha = 0;
 flashColour = c_red;

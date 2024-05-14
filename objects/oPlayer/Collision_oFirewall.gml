@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!oPlayer.isInvincible)
+if (!oPlayer.karma)
 {
-	oPlayer.isInvincible = true;
-	global.hp -=20;
+	oPlayer.karma = true;
+	global.hp -=1;
 	flashAlpha = 1;
 	if (global.hp < 1)
 	{
