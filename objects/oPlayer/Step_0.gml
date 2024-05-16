@@ -1,6 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!falling)
+if (room = startscreen)
+{
+	rightKey = keyboard_check(vk_right);
+	leftKey = keyboard_check(vk_left);
+	upKey = keyboard_check(vk_up);
+	downKey = keyboard_check(vk_down);
+	attackKey = keyboard_check(vk_tab);
+	
+if downKey
+{
+	
+}
+
+
+}
+if (!falling & !room = startscreen & !room = deathscreen)
 {
 	rightKey = keyboard_check(vk_right);
 	leftKey = keyboard_check(vk_left);
@@ -54,6 +69,7 @@ if (!falling)
 		}
 		if (invTimer = 1.9)
 		{
+			
 			audio_play_sound(damage, 1, false)
 		}
 		if (invTimer <= 0)
@@ -65,7 +81,7 @@ if (!falling)
 	}
 	if (karma)
 	{
-		karmatimer -= 2/room_speed;
+		karmatimer -= 4/room_speed;
 		if (flashAlpha > 0)
 		{
 			flashAlpha -= 0.1;

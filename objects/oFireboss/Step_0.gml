@@ -138,3 +138,16 @@ if global.bossfirehp <= 7
 		instance_create_layer(675, 388, "Instances", oFirewall)
 	}
 }
+if global.bossfirehp <= 3
+{
+	
+	if (firewalltimer <= 0)
+	{
+		firewalltimer = 4.2
+		instance_create_layer(675, 388, "Instances", oFirewall)
+	}
+	if (firewalltimer = 3.15)
+	{
+		instance_create_layer(675, 388, "Instances", oFirewall)
+	}
+}
