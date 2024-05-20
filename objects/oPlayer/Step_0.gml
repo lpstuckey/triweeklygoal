@@ -1,21 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (room = startscreen)
-{
-	rightKey = keyboard_check(vk_right);
-	leftKey = keyboard_check(vk_left);
-	upKey = keyboard_check(vk_up);
-	downKey = keyboard_check(vk_down);
-	attackKey = keyboard_check(vk_tab);
-	
-if downKey
-{
-	
-}
 
 
-}
-if (!falling & !room = startscreen & !room = deathscreen)
+
+if (!falling )
 {
 	rightKey = keyboard_check(vk_right);
 	leftKey = keyboard_check(vk_left);
