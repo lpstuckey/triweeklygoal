@@ -36,6 +36,8 @@ function PlayerDeath()
 
 	instance_destroy(oHud)
 	room_goto(deathscreen);
+	instance_create_layer(0, 0, "instances", oHud)
+
 
 
 }

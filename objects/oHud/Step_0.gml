@@ -42,3 +42,22 @@ else //if room = room5dungeon or room = mountains
 	bossbar = false
 
 }
+/*
+if (keyboard_check_pressed(ord("X")) and !tinymenu)
+{
+	tinymenu = true
+	instance_create_layer(60, 328, "instances", oButtonTrigger)
+	instance_create_layer(60, 328, "instances", oButtonMenu)
+	
+	
+	
+}
+if (keyboard_check_pressed(ord("z")))
+{
+	instance_destroy(oButtonTrigger)
+	instance_destroy(oButtonMenu)
+	tinymenu = false
+	
+}
+*/
+

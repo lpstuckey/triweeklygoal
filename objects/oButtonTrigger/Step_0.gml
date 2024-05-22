@@ -59,3 +59,8 @@ else if (room = credits)
 		oButtonMenu.flashAlpha = 0;
 		oButtonMenu.shaded = false;
 }
+else 
+{
+	oButtonMenu.flashAlpha = 0;
+	oButtonMenu.shaded = false;
+}
