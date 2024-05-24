@@ -96,6 +96,7 @@
     {"id":{"name":"shPlayerHurt","path":"shaders/shPlayerHurt/shPlayerHurt.yy",},},
     {"id":{"name":"damage","path":"sounds/damage/damage.yy",},},
     {"id":{"name":"dungeonambience","path":"sounds/dungeonambience/dungeonambience.yy",},},
+    {"id":{"name":"enemyhit","path":"sounds/enemyhit/enemyhit.yy",},},
     {"id":{"name":"firebeam","path":"sounds/firebeam/firebeam.yy",},},
     {"id":{"name":"firebossmusic","path":"sounds/firebossmusic/firebossmusic.yy",},},
     {"id":{"name":"mountainwind","path":"sounds/mountainwind/mountainwind.yy",},},

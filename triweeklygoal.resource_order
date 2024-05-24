@@ -73,6 +73,7 @@
     {"name":"shButton","order":1,"path":"shaders/shButton/shButton.yy",},
     {"name":"damage","order":11,"path":"sounds/damage/damage.yy",},
     {"name":"dungeonambience","order":3,"path":"sounds/dungeonambience/dungeonambience.yy",},
+    {"name":"enemyhit","order":12,"path":"sounds/enemyhit/enemyhit.yy",},
     {"name":"firebeam","order":9,"path":"sounds/firebeam/firebeam.yy",},
     {"name":"firebossmusic","order":10,"path":"sounds/firebossmusic/firebossmusic.yy",},
     {"name":"mountainwind","order":4,"path":"sounds/mountainwind/mountainwind.yy",},

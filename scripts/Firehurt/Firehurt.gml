@@ -8,6 +8,7 @@ function Firehurt()
 		oPlayer.attack = false;
 		oPlayer.attackcooldown -= 1/room_speed
 		oFire.firehp -= 1;
+		audio_play_sound(enemyhit, 2, false)
 	
 		if (oFire.firehp <= 0)
 		{
@@ -26,6 +27,7 @@ function firebosshurt()
 		oPlayer.attack = false;
 		oPlayer.attackcooldown -= 1/room_speed
 		global.bossfirehp -= 1;
+		audio_play_sound(enemyhit, 2, false)
 		if (global.bossfirehp <= 0)
 		{
 			Firebossdeath();

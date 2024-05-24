@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"deathscreen",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/deathscreen/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
