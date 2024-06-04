@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oDoor",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oTheend",
+  "eventList":[],
   "managed":true,
-  "name":"oDoor",
+  "name":"oTheend",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDungeonwall",
-    "path":"sprites/sDungeonwall/sDungeonwall.yy",
+    "name":"sTheend",
+    "path":"sprites/sTheend/sTheend.yy",
   },
   "spriteMaskId":null,
   "visible":true,

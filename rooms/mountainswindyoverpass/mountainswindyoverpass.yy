@@ -15,6 +15,7 @@
     {"name":"inst_2DD2FB76","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
     {"name":"inst_47468731","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
     {"name":"inst_A086FBF","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
+    {"name":"inst_3BB6F3EC","path":"rooms/mountainswindyoverpass/mountainswindyoverpass.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -104,6 +105,7 @@
         {"$GMRInstance":"","%Name":"inst_2DD2FB76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DD2FB76","objectId":{"name":"snowytree","path":"objects/snowytree/snowytree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09,"scaleY":0.09,"x":320.0,"y":288.0,},
         {"$GMRInstance":"","%Name":"inst_47468731","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47468731","objectId":{"name":"snowytree","path":"objects/snowytree/snowytree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09,"scaleY":0.09,"x":288.0,"y":257.0,},
         {"$GMRInstance":"","%Name":"inst_A086FBF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A086FBF","objectId":{"name":"snowytree","path":"objects/snowytree/snowytree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09,"scaleY":0.09,"x":256.0,"y":256.0,},
+        {"$GMRInstance":"","%Name":"inst_3BB6F3EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BB6F3EC","objectId":{"name":"oTheend","path":"objects/oTheend/oTheend.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -1434,-2147483648,1,224,-27,225,-57,-2147483648,2,0,246,-27,247,-57,-2147483648,4,220,221,266,267,-25,
