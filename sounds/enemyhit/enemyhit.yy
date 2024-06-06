@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"enemyhit.wav",
   "type":0,
-  "volume":0.68,
+  "volume":0.86,
 }

@@ -96,7 +96,7 @@ if (!falling )
 		if attackcooldown <= 0 
 		{
 			attackready = true
-			attackcooldown = 2
+			attackcooldown = 0.45
 		}
 	}
 	if (attackKey && attackready)
@@ -118,7 +118,7 @@ if (!falling )
 		if (attacklength <= 0)
 		{
 			attackready = false;
-			attacklength = 1;
+			attacklength = 0.45;
 		}
 	}
 	else if (attackarmed && upKey)
@@ -129,7 +129,7 @@ if (!falling )
 		if (attacklength <= 0)
 		{
 			attackready = false;
-			attacklength = 1;
+			attacklength = 0.45;
 		}
 	}
 	else if (attackarmed && leftKey)
@@ -140,18 +140,19 @@ if (!falling )
 		if (attacklength <= 0)
 		{
 			attackready = false;
-			attacklength = 1;
+			attacklength = 0.45;
 		}
 	}
 	else if (attackarmed && rightKey)
 	{
 		sprite_index = sPlayerRightSlice;
+
 		attack = true;
 		attacklength -= 1/room_speed
 		if (attacklength <= 0)
 		{
 			attackready = false;
-			attacklength = 1;
+			attacklength = 0.45;
 		}
 	}
 	else
@@ -161,10 +162,8 @@ if (!falling )
 		attack = false;
 	}
 }
-if attack = true
-{
-	audio_play_sound(sound_attack, 1, false)
-}
+
+
 if waterfallhappened = true
 {
 	waterfallhappening = false

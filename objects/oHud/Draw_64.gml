@@ -18,6 +18,9 @@ if !room = MainMenu
 	draw_text(39,130, string(oPlayer.attacklength))
 	draw_text(39,150, string(oPlayer.attackcooldown))
 }
+	draw_text(200, 200, string(oPlayer.attack))
+	draw_text(200, 240, string(oPlayer.attacksound))
+
 if (tutorialdialogue == true)
 {
 	draw_text(100, 190, "welcome to the attack tutorial")
