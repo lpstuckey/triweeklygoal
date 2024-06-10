@@ -6,9 +6,25 @@
 if (!falling )
 {
 	rightKey = keyboard_check(vk_right);
+	if (rightKey && !attack)
+	{
+		sprite_index = sPlayerright
+	}
 	leftKey = keyboard_check(vk_left);
+	if (leftKey && !attack)
+	{
+		sprite_index = sPlayerleft
+	}
 	upKey = keyboard_check(vk_up);
+	if (upKey && !attack)
+	{
+		sprite_index = sPlayerup
+	}
 	downKey = keyboard_check(vk_down);
+	if (downKey && !attack)
+	{
+		sprite_index = sPlayerdown
+	}
 	attackKey = keyboard_check(vk_tab);
 	
 	xspd = (rightKey - leftKey) * moveSpd;
@@ -90,6 +106,12 @@ if (!falling )
 			flashAlpha = 0;
 		}
 	}
+	
+	if keyboard_check_pressed(vk_tab) && !audio_is_playing(enemyhit)
+	{
+		
+		audio_play_sound(enemyhit, 5, false)
+	}
 	if (!attackready)
 	{
 		attackcooldown -= 1/room_speed
@@ -99,10 +121,13 @@ if (!falling )
 			attackcooldown = 0.45
 		}
 	}
-	if (attackKey && attackready)
+	if (audio_is_playing(enemyhit) && attackready)
 	{
-		attackarmed = true;
-
+		
+		attackarmed = true
+		
+		
+		
 	}
 
 	else
@@ -119,6 +144,8 @@ if (!falling )
 		{
 			attackready = false;
 			attacklength = 0.45;
+			audio_stop_sound(enemyhit)
+			sprite_index = sPlayerdown
 		}
 	}
 	else if (attackarmed && upKey)
@@ -130,6 +157,8 @@ if (!falling )
 		{
 			attackready = false;
 			attacklength = 0.45;
+			audio_stop_sound(enemyhit)
+			sprite_index = sPlayerup
 		}
 	}
 	else if (attackarmed && leftKey)
@@ -141,6 +170,9 @@ if (!falling )
 		{
 			attackready = false;
 			attacklength = 0.45;
+			audio_stop_sound(enemyhit)
+			sprite_index = sPlayerleft
+			//attack = false;
 		}
 	}
 	else if (attackarmed && rightKey)
@@ -153,15 +185,22 @@ if (!falling )
 		{
 			attackready = false;
 			attacklength = 0.45;
+			audio_stop_sound(enemyhit)
+			sprite_index = sPlayerright
 		}
 	}
 	else
 	{
 	
-		sprite_index = sPlayer;
+		
 		attack = false;
+		
 	}
+
+	
+
 }
+
 
 
 if waterfallhappened = true

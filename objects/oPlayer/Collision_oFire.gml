@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!isInvincible && !attack)
+if (!isInvincible && !audio_is_playing(enemyhit))
 {
 	PlayerHurt();
 }
-else if (attack && !other.fireinvincibility)
+else if (audio_is_playing(enemyhit) && !other.fireinvincibility)
 {
 	Firehurt();
 }
