@@ -194,6 +194,7 @@ if (!falling )
 	
 		
 		attack = false;
+		sprite_index = sPlayerright
 		
 	}
 
